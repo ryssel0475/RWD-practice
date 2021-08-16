@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geography</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/Reset.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/response.css">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@700&display=swap" rel="stylesheet"> 
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+        /* body{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        } */
+
+    </style>
+</head>
+<body>
+    <div class="about">
+        <div class="home_pic">
+            <div class="title-text">
+                <h1>Title</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur</p>
+            </div>
+            <img src="images/nature.jpg">
+        </div>
+        
+        <nav class="nav-bar">
+            <div>
+                <ul>
+                    <li class="nav-sec">
+                        <p >海洋</p>
+                    </li>
+                    <li class="nav-sec">
+                        <p>叢林</p>
+                    </li>
+                    <li class="nav-sec">
+                        <p>冰河</p>
+                    </li>
+                    <li class="nav-sec">
+                        <p>火山</p>
+                    </li>
+                    <li class="nav-sec">
+                        <p>高山</p>
+                    </li>
+                    <li class="nav-sec">
+                        <p>沙漠</p>
+                    </li>
+                </ul>
+                <div class="arrow nav-btn-left" onclick="Left()"></div>
+                <div class="arrow nav-btn-right" onclick="Right()"></div>
+            </div>
+        </nav>
+        
+        <section class="section2">
+            <div class="tit">
+                <div class="category-text">
+                    <h2>海洋</h2>
+                    <div>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="main-wrap">
+                <div class="text-wrap" data-aos="fade-right">
+                    <h3>海和洋的統稱</h3>
+                    <p>
+                    海是由大量鹹水組成的水體，四周鄰接陸地。
+                    </br>
+                    </br>   
+                    廣義上的海指由地球海洋鹹水水域組成的部分，一般把它看待為一整個世界洋，或是由若干大洋組合而成的水體。
+                    </p>
+                </div>
+
+                <div class="img-wrap">
+                    <img class="ocean-img num1" src="images/ocean1.jpg">
+                    <img class="ocean-img num2" src="images/ocean2.jpg">
+                    <img class="ocean-img num3" src="images/ocean3.jpg">
+                </div>
+
+                <div class="info-wrap" data-aos="fade-up">
+                    <div class="info-text">
+                        <p class="desc_ num1">較小的次要海區（如地中海）或大型鹽湖（如裏海），則一般以「海」命名。</p>
+                        <p class="desc_ num2">較小的次要海區（如地中海）或大型鹽湖（如裏海）。</p>
+                        <p class="desc_ num3">則一般以「海」命名。</p> 
+                    </div>
+                    <div class="info-img">
+                        <div class="img ocean1">
+                            <img class="pic1" src="images/ocean1.jpg">
+                            <div class="mask num1">
+                                <p>海洋(一)</p>
+                            </div>
+                        </div>
+                        <div class="img ocean2">
+                            <img class="pic2" src="images/ocean2.jpg">
+                            <div class="mask num2">
+                                <p>海洋(二)</p>
+                            </div>
+                        </div>
+                        <div class="img ocean3">
+                            <img class="pic3" src="images/ocean3.jpg">
+                            <div class="mask num3">
+                                <p>海洋(三)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bt-img-bar" data-aos="fade-up">
+                <img src="images/ocean4.jpg">
+                <img src="images/ocean5.jpg">
+                <img src="images/ocean6.jpg">
+            </div>
+        </section> 
+
+        <section class="section3">
+            <div class="tit">
+                <div class="category-text">
+                    <h2>叢林</h2>
+                    <div>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="main-wrap">
+                <div class="text-wrap" data-aos="fade-right">
+                    <h3>叢林通常指熱帶地區中的茂密森林</h3>
+                    <p>
+                    技術上形容為有很大的生物多樣性和植物（例如：樹、蔓生植物、草和蘆葦）茂密的森林。
+                    </br>
+                    </br>   
+                    有些人認為叢林這個字的使用並不盡是對自然棲息地的中立描述。
+                    </p>
+                </div>
+                <div class="img-wrap">
+                    <img class="jungle-img num4" src="images/jungle1.jpg">
+                    <img class="jungle-img num5" src="images/jungle2.jpg">
+                    <img class="jungle-img num6" src="images/jungle3.jpg">
+                </div>
+
+                <div class="info-wrap" data-aos="fade-up">
+                    <div class="info-text">
+                        <p class="desc_ num4">分布於赤道和熱帶氣候的地區的叢林則被形容為森林。而叢林亦和雨林的穩定生長的前階段有聯繫。</p>
+                        <p class="desc_ num5">分布於赤道和熱帶氣候的地區的叢林則被形容為森林。</p> 
+                        <p class="desc_ num6">而叢林亦和雨林的穩定生長的前階段有聯繫。</p> 
+                    </div>
+                    <div class="info-img">
+                        <div class="img jungle1">
+                            <img class="pic1" src="images/jungle1.jpg">
+                            <div class="mask num4">
+                                <p>叢林(一)</p>
+                            </div>
+                        </div>
+                        <div class="img jungle2">
+                            <img class="pic2" src="images/jungle2.jpg">
+                            <div class="mask num5">
+                                <p>叢林(二)</p>
+                            </div>
+                        </div>
+                        <div class="img jungle3">
+                            <img class="pic3" src="images/jungle3.jpg">
+                            <div class="mask num6">
+                                <p>叢林(三)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bt-img-bar" data-aos="fade-up">
+                <img src="images/jungle4.jpg">
+                <img src="images/jungle5.jpg">
+                <img src="images/jungle6.jpg">
+            </div>
+        </section> 
+        
+        <section class="section4">
+            <div class="tit">
+                <div class="category-text">
+                    <h2>冰河</h2>
+                    <div>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text_pic">
+                <div class="main_pic">
+                    <div class="sect-img">
+                        <div class="text-wrap" data-aos="fade-right">
+                            <h3>是指大量冰塊堆積形成如同河川般的地理景觀。</h3>
+                            <p>是一巨大的流動固體，是在高寒地區由層層積雪堆疊而成的巨大冰河冰。</p>
+                        </div>
+                        <img src="images/glacier1.jpg">
+                    </div>
+                </div>    
+            </div>
+
+            <div class="bt-img-bar" data-aos="fade-up">
+                <img src="images/glacier2.jpg">
+                <img src="images/glacier3.jpg">
+                <img src="images/glacier4.jpg">
+                <img src="images/glacier5.jpg">
+            </div>
+        </section>
+
+        <section class="section5">
+            <div class="tit">
+                <div class="category-text">
+                    <h2>火山</h2>
+                    <div>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text_pic">
+                <div class="main_pic">
+                    <div class="sect-img">
+                        <div class="text-wrap" data-aos="fade-right">
+                            <h3>是指大量冰塊堆積形成如同河川般的地理景觀。</h3>
+                            <p>是一巨大的流動固體，是在高寒地區由層層積雪堆疊而成的巨大冰河冰。</p>
+                        </div>
+                        <img src="images/volcano6.jpg">
+                    </div>
+                </div>    
+            </div>
+
+            <div class="bt-img-bar" data-aos="fade-up">
+                <img src="images/volcano2.jpg">
+                <img src="images/volcano3.jpg">
+                <img src="images/volcano4.jpg">
+                <img src="images/volcano5.jpg">
+                <img src="images/volcano1.jpg">
+                <img src="images/volcano7.jpg">
+            </div>
+        </section>
+        
+        <section class="section6">
+            <div class="tit">
+                <div class="category-text">
+                    <h2>高山</h2>
+                    <div>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text_pic">
+                <div class="main_pic">
+                    <div class="sect-img">
+                        <div class="text-wrap" data-aos="fade-right">
+                            <h3>山是地面上被平地所圍繞的具有較大的絕對高度和相對高度而凸起的地貌區。</h3>
+                            <p>山離地面高度通常在海拔600米以上，包括低山、中山與高山，是否被稱作山取決於當地人。 </p>
+                        </div>
+                        <img src="images/mountain2.jpg">
+                    </div>
+                </div>    
+            </div>
+
+            <div class="bt-img-bar" data-aos="fade-up">
+                <img src="images/mountain1.jpg">
+                <img src="images/mountain3.jpg">
+                <img src="images/mountain4.jpg">
+            </div>
+        </section>
+
+        <section class="section7">
+            <div class="tit">
+                <div class="category-text">
+                    <h2>沙漠</h2>
+                    <div>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text_pic">
+                <div class="main_pic">
+                    <div class="sect-img">
+                        <div class="text-wrap" data-aos="fade-right">
+                            <h3>沙漠，亦作砂漠，全稱沙質荒漠。</h3>
+                            <p>是地球乾燥氣候影響下所產生的地貌，約占地球陸地整體面積的21%。</p>
+                        </div>
+                        <img src="images/desert1.jpg">
+                    </div>
+                    <div class="engine-wrap">
+                        <img src="https://test.hyundai-motor.com.tw/images/carStyle_car_7/sec-5-img-engine-1.png">
+                        <div class="engine-text">
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet</li>
+                                <li>Lorem ipsum dolor sit amet</li>
+                                <li>Lorem ipsum dolor sit amet</li>
+                                <li>Lorem ipsum dolor sit amet</li>
+                                <li>Lorem ipsum dolor sit amet</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="bt-img-bar" data-aos="fade-up">
+                    <img src="images/desert2.jpg">
+                    <img src="images/desert3.jpg">
+                    <img src="images/desert4.jpg">
+                    <img src="images/desert5.jpg">
+                    <img src="images/desert6.jpg">
+                    <img src="images/desert7.jpg">
+                </div>
+
+            </div>
+        </section>
+
+        <!-- <section class="section8">
+            <div class="tit">
+                <div class="category-text">
+                    <h2>平原</h2>
+                    <div>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text_pic">
+                <div class="main_pic">
+                    <div class="sect-img">
+                        <div class="text-wrap" data-aos="fade-right">
+                            <h3>山是地面上被平地所圍繞的具有較大的絕對高度和相對高度而凸起的地貌區。</h3>
+                            <p>山離地面高度通常在海拔600米以上，包括低山、中山與高山，是否被稱作山取決於當地人。 </p>
+                        </div>
+                        <img src="images/mountain2.jpg">
+                    </div>
+                </div>    
+            </div>
+
+            <div class="slider-wrap" data-aos="fade-right">
+                <div class="slider">
+                    <div class="slider-nav">
+                        <ul>
+                            <li>
+                                <p>平原(一)</p>
+                            </li>
+                            <li>
+                                <p>平原(二)</p>
+                            </li>
+                            <li>
+                                <p>平原(三)</p>
+                            </li>
+                            <li>
+                                <p>平原(四)</p>
+                            </li>
+                            <li>
+                                <p>平原(五)</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="slider-img-wrap">
+                        <img src="images/plain1.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section> -->
+ 
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="  crossorigin="anonymous"></script></body>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
+    <script src="js/main.js"></script>
+</html>

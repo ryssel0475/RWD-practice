@@ -1,0 +1,163 @@
+@media screen and (max-width:768px) {
+    .title-text h1{
+        font-size: 10vw;
+    }
+    .nav-bar{
+        position: sticky;
+    }
+
+    .nav-bar div{
+        width:78.125vw;
+        height: 100%;
+        margin:0 auto;
+        overflow:hidden;
+        white-space: nowrap;
+    }
+
+    .nav-bar .arrow{
+        width:1.5625vw;
+        height:1.5625vw;
+        cursor:pointer;
+    }
+
+    .tit .category-text{
+        left:45%;
+    }
+
+    .tit span{
+        width:5.5vw;
+    }
+
+    .main-wrap{
+        display:block;
+        /* background-color: white; */
+    }
+
+    .text-wrap h3{
+        font-size:4.6875vw;
+        margin:0 0 0 13.4375vw;
+    }
+
+    .text-wrap p{
+        width:78.125vw;
+        margin:4.40625vw 0 8vw 13.4375vw;
+    }
+
+    .img-wrap{
+        height:60vw;
+    }
+
+    .img-wrap img{
+        height:60vw;
+    }
+
+    .info-wrap{
+        position:relative;
+        width:100%;
+        margin:0;
+        background-color: white;
+    }
+
+    .info-text{
+        width:100%;
+        height:22.8125vw;
+    }
+
+    .mask p{
+        white-space: nowrap;
+    }
+
+    .info-img{
+        width:85%;
+        height:100px;
+        margin:auto;
+    }
+
+    .section2 .bt-img-bar{
+        display:none;
+    }
+
+    .section3 .bt-img-bar{
+        display:none;
+    }
+
+    .bt-img-bar{
+        display:block;
+        width:88.75vw;
+        margin:5.78125vw auto 0 auto;
+        
+    }
+
+    .bt-img-bar img{
+        width:100%;
+        height:60vw;
+        margin-bottom:3.90625vw;
+    }
+
+    .section5 .bt-img-bar, .section7 .bt-img-bar{
+        width:88.75vw;
+    }
+
+    .sect-img img{
+        display:flex;
+        height:40vh;
+    }
+
+    .sect-img .text-wrap{
+        position:relative;
+        width:100%;
+    }
+    
+    .text-wrap h3{
+        margin:0 5vw 8vw 13.4375vw;
+    }
+
+    .section4 .text-wrap, .section5 .text-wrap, .section6 .text-wrap, .section7 .text-wrap, .section8 .text-wrap{
+        background: #ccc;
+    }
+
+    .section7 .engine-wrap{
+        background-image: url(https://test.hyundai-motor.com.tw/images/carStyle_car_7/sec-5-img-engine-2.jpg);
+        position: relative;
+        height:auto;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .engine-wrap img{
+        position:relative;
+        width:65.15625vw;
+        margin:6.71875vw 0 0 15.78125vw;
+    }
+
+    .engine-wrap .engine-text {
+        position: relative;
+        margin:7.34375vw 0 0 21.09375vw;
+        font-size: 3.90625vw;
+    }
+
+}
+
+@media screen and (max-width:595px) {
+    .nav-bar ul{
+        justify-content: left;
+    }
+
+    .nav-btn-left{
+        position: absolute;
+        border-top: 3px solid #fff;
+        border-left: 3px solid #fff;
+        transform: rotate(-45deg) translateY(-50%);
+        top:50%;
+        left:5vw;
+    }
+
+    .nav-btn-right{
+        position: absolute;
+        border-top: 3px solid #fff;
+        border-right: 3px solid #fff;
+        transform: rotate(45deg) translateY(-50%);
+        top:50%;
+        right:5vw;
+    }
+}

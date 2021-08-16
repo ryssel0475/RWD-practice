@@ -1,0 +1,15 @@
+.ocean-img, .desc_, .jungle-img{
+    opacity: 0;
+}
+
+.active{
+    opacity:1;
+}
+
+.img-wrap img{
+    transition: opacity .5s;
+}
+
+nav div ul li p{
+    cursor: pointer;
+}
